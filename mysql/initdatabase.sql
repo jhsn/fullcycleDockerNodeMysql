@@ -1,0 +1,6 @@
+USE nodedb;
+CREATE TABLE  IF NOT EXISTS people(
+    id bigint not null auto_increment,
+    nome varchar(80) not null,
+    primary key (id)
+) engine=InnoDB default charset=utf8;
